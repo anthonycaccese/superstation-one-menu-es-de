@@ -35,7 +35,10 @@
    Font Size
    ///
    -->
+   <fontSize>small</fontSize>
    <fontSize>medium</fontSize>
+   <fontSize>large</fontSize>
+   <fontSize>x-large</fontSize>
 
    <!--
    ///
@@ -119,10 +122,10 @@
       <selectable>true</selectable>
    </variant>
    <!-- Carousel: Boxart -->
-   <!--<variant name="gamelist-carousel-cover">
+   <variant name="gamelist-carousel-cover">
       <label>Carousel: Boxart</label>
       <selectable>true</selectable>
-   </variant>-->
+   </variant>
    <!-- Grid: Boxart -->
    <!--<variant name="gamelist-grid-cover">
       <label>Grid: Boxart</label>

@@ -146,15 +146,6 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
          <entryRelativeScale>0.66666667</entryRelativeScale>
       </helpsystem>
    </view>
-   <fontSize name="medium">
-      <variables>
-         <textListFontSize>0.05555556</textListFontSize><!-- 60 -->
-         <textListLineSpacing>1.4625</textListLineSpacing>
-         <wrapperFontSize>0.02962963</wrapperFontSize><!-- 32 -->
-         <wrapperLineSpacing>1</wrapperLineSpacing>
-         <helpSystemFontSize>0.04444444</helpSystemFontSize><!-- 48 -->
-      </variables>
-   </fontSize>
 
    <!--
    ///
@@ -163,15 +154,13 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
    -->
    <view name="system">
       <text name="view-name">
-         <text>Systems  /  ${systemHardwareType}</text>
+         <text>Systems / ${systemHardwareType}</text>
       </text>
       <textlist name="system-textlist">
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <size>0.65 0.65</size>
+         <horizontalAlignment>center</horizontalAlignment>
          <fontSize>${textListFontSize}</fontSize>
          <lineSpacing>${textListLineSpacing}</lineSpacing>
-         <horizontalAlignment>center</horizontalAlignment>
          <fontPath>${fontPath}</fontPath>
          <systemNameSuffix>false</systemNameSuffix>
          <selectorColor>00000000</selectorColor>
@@ -181,7 +170,8 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
          <selectedBackgroundColor>${selectorColor}</selectedBackgroundColor>
          <selectedBackgroundCornerRadius>0.0025</selectedBackgroundCornerRadius>
          <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
-         <indicators>symbols</indicators>
+         <letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
+         <indicators>${indicators}</indicators>
       </textlist>
    </view>
 
@@ -192,7 +182,7 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
    -->
    <view name="gamelist">
       <text name="view-name">
-         <text>Games  /  ${systemName}</text>
+         <text>Games / ${systemName}</text>
       </text>
    </view>
 
@@ -215,6 +205,7 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
             <selectedBackgroundColor>${selectorColor}</selectedBackgroundColor>
             <selectedBackgroundCornerRadius>0.0025</selectedBackgroundCornerRadius>
             <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+            <letterCaseCustomCollections>capitalize</letterCaseCustomCollections>
             <indicators>${indicators}</indicators>
          </textlist>
       </view>
@@ -229,8 +220,6 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
       <view name="gamelist">
          <textlist name="gamelist-textlist">
             <origin>0.5 0.5</origin>
-            <pos>0.5 0.5</pos>
-            <size>0.65 0.65</size>
             <horizontalAlignment>center</horizontalAlignment>
          </textlist>
       </view>
@@ -245,14 +234,10 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
       <view name="gamelist">
          <textlist name="gamelist-textlist">
             <origin>0 0.5</origin>
-            <pos>0.125 0.5</pos>
-            <size>0.325 0.65</size>
             <horizontalAlignment>left</horizontalAlignment>
          </textlist>
          <video name="game-artwork">
             <origin>1 0.5</origin>
-            <pos>0.875 0.5</pos>
-            <maxSize>0.325 0.65</maxSize>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
             <videoCornerRadius>0.0025</videoCornerRadius>
@@ -335,20 +320,77 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
    Gamelist View Variants - Carousel: Cover
    ///
    -->
-   <!--<variant name="gamelist-carousel-cover">
+   <variant name="gamelist-carousel-cover">
       <view name="gamelist">
+         <text name="game-name">
+            <origin>0 0</origin>
+            <metadata>name</metadata>
+            <fontPath>${fontPath}</fontPath>
+            <fontSize>0.05555556</fontSize><!-- 60 -->
+            <lineSpacing>1</lineSpacing>
+            <color>${fontColorBase}</color>
+         </text>
          <carousel name="gamelist-carousel">
             <origin>0 0.5</origin>
-            <pos>0 0.5</pos>
-            <size>1 0.65</size>
+            <pos>0 0.56851852</pos><!-- 0 614 -->
+            <size>1 0.5</size><!-- 0 50% -->
             <imageType>cover</imageType>
+            <fastScrolling>true</fastScrolling>
             <color>00000000</color>
-            <maxItemCount>4</maxItemCount>
-            <itemSize>0.2 0.65</itemSize>
             <horizontalOffset>-0.25</horizontalOffset>
+            <itemVerticalAlignment>top</itemVerticalAlignment>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <imageCornerRadius>0.0025</imageCornerRadius>
+            <fontPath>${fontPath}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <textColor>ffffff</textColor>
+            <textBackgroundColor>222222</textBackgroundColor>
+            <textBackgroundCornerRadius>0.0025</textBackgroundCornerRadius>
          </carousel>
       </view>
-   </variant>-->
+   </variant>
+
+   <!--
+   ///
+   Font Sizes
+   ///
+   -->
+   <fontSize name="small">
+      <variables>
+         <textListFontSize>0.03888889</textListFontSize><!-- 42 -->
+         <textListLineSpacing>1.67142857</textListLineSpacing><!-- 10 items -->
+         <wrapperFontSize>0.02962963</wrapperFontSize><!-- 32 -->
+         <wrapperLineSpacing>1</wrapperLineSpacing>
+         <helpSystemFontSize>0.04444444</helpSystemFontSize><!-- 48 -->
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <textListFontSize>0.05555556</textListFontSize><!-- 60 -->
+         <textListLineSpacing>1.4625</textListLineSpacing><!-- 8 items -->
+         <wrapperFontSize>0.02962963</wrapperFontSize><!-- 32 -->
+         <wrapperLineSpacing>1</wrapperLineSpacing>
+         <helpSystemFontSize>0.04444444</helpSystemFontSize><!-- 48 -->
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <textListFontSize>0.05555556</textListFontSize><!-- 60 -->
+         <textListLineSpacing>1.4625</textListLineSpacing><!-- 8 items -->
+         <wrapperFontSize>0.03888889</wrapperFontSize><!-- 42 -->
+         <wrapperLineSpacing>1</wrapperLineSpacing>
+         <helpSystemFontSize>0.0537037</helpSystemFontSize><!-- 58 -->
+      </variables>
+   </fontSize>
+   <fontSize name="x-large">
+      <variables>
+         <textListFontSize>0.07222222</textListFontSize><!-- 78 -->
+         <textListLineSpacing>1.5</textListLineSpacing><!-- 6 items -->
+         <wrapperFontSize>0.03888889</wrapperFontSize><!-- 42 -->
+         <wrapperLineSpacing>1</wrapperLineSpacing>
+         <helpSystemFontSize>0.0537037</helpSystemFontSize><!-- 58 -->
+      </variables>
+   </fontSize>
 
    <!--
    ///
