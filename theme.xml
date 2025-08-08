@@ -255,8 +255,9 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
             <maxSize>0.325 0.65</maxSize>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
+            <videoCornerRadius>0.0025</videoCornerRadius>
+            <pillarboxes>false</pillarboxes>
             <delay>3</delay>
-            <fadeInType>transparent</fadeInType>
          </video>
       </view>
    </variant>
@@ -270,6 +271,7 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
       <view name="gamelist">
          <video name="game-artwork">
             <imageType>cover</imageType>
+            <imageCornerRadius>0.0025</imageCornerRadius>
          </video>
       </view>
    </variant>
@@ -283,6 +285,7 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
       <view name="gamelist">
          <video name="game-artwork">
             <imageType>screenshot</imageType>
+            <imageCornerRadius>0.0025</imageCornerRadius>
          </video>
       </view>
    </variant>
@@ -296,6 +299,7 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
       <view name="gamelist">
          <video name="game-artwork">
             <imageType>titlescreen</imageType>
+            <imageCornerRadius>0.0025</imageCornerRadius>
          </video>
       </view>
    </variant>
