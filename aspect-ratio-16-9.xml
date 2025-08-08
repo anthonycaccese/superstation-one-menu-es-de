@@ -1,0 +1,59 @@
+<!-- 
+16:9 aspect ratio
+based on 1920x1080
+-->
+<theme>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <text name="user-name">
+         <pos>0.03125 0.05555556</pos><!-- 60 60 -->
+      </text>
+      <clock name="clock">
+         <pos>0.5 0.05555556</pos><!-- 60 60 -->
+      </clock>
+      <systemstatus name="system-status">
+         <pos>0.96875 0.05555556</pos><!-- 1860 60 -->
+      </systemstatus>
+      <text name="view-name">
+         <pos>0.03125 0.94444444</pos><!-- 60 1020 -->
+      </text>
+      <helpsystem name="help-system-view,help-gamelist-view">
+         <pos>0.96875 0.95185185</pos><!-- 1860 1028 -->
+      </helpsystem>
+   </view>
+   <view name="system">
+      <helpsystem name="help-system-view">
+         <entries>${helpSystemViewEntries}</entries>
+      </helpsystem>
+      <helpsystem name="help-gamelist-view">
+         <scope>none</scope>
+      </helpsystem>
+      <textlist name="system-textlist">
+         <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
+      </textlist>
+   </view>
+   <view name="gamelist">
+      <helpsystem name="help-system-view">
+         <scope>none</scope>
+      </helpsystem>
+      <helpsystem name="help-gamelist-view">
+         <entries>${helpGamelistViewEntries}</entries>
+      </helpsystem>
+      <textlist name="gamelist-textlist">
+         <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
+      </textlist>
+   </view>
+   <fontSize name="medium">
+      <variables>
+         <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins>
+         <helpSystemViewEntries>start,a</helpSystemViewEntries>
+         <helpGamelistViewEntries>back,a,b</helpGamelistViewEntries>
+      </variables>
+   </fontSize>
+
+</theme>

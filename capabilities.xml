@@ -1,0 +1,132 @@
+<themeCapabilities>
+   
+   <themeName>SuperStation One Menu</themeName>
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio>16:9</aspectRatio>
+
+   <!--
+   ///
+   Color Schemes
+   ///
+   -->
+   <colorScheme name="black">
+      <label>Black</label>
+   </colorScheme>
+   <colorScheme name="green">
+      <label>Green</label>
+   </colorScheme>
+   <colorScheme name="blue">
+      <label>Blue</label>
+   </colorScheme>
+   <colorScheme name="red">
+      <label>Red</label>
+   </colorScheme>
+   <colorScheme name="custom">
+      <label>Custom</label>
+   </colorScheme>
+
+   <!--
+   ///
+   Font Size
+   ///
+   -->
+   <fontSize>medium</fontSize>
+
+   <!--
+   ///
+   Transitions
+   ///
+   -->
+   <transitions name="transitions">
+      <label>transitions</label>
+      <selectable>false</selectable>
+      <systemToSystem>instant</systemToSystem>
+      <systemToGamelist>instant</systemToGamelist>
+      <gamelistToGamelist>instant</gamelistToGamelist>
+      <gamelistToSystem>instant</gamelistToSystem>
+      <startupToSystem>instant</startupToSystem>
+      <startupToGamelist>instant</startupToGamelist>
+   </transitions>
+   <suppressTransitionProfiles>
+      <entry>builtin-instant</entry>
+      <entry>builtin-fade</entry>
+      <entry>builtin-slide</entry>
+   </suppressTransitionProfiles>
+
+   <!--
+   ///
+   Variants
+   ///
+   -->
+   <!-- List: Boxart -->
+   <variant name="gamelist-list-cover">
+      <label>List: Boxart</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>cover</mediaType>
+         <useVariant>gamelist-list-basic</useVariant>
+      </override>
+   </variant>
+   <!-- List: Screenshot -->
+   <variant name="gamelist-list-screenshot">
+      <label>List: Screenshot</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>screenshot</mediaType>
+         <useVariant>gamelist-list-basic</useVariant>
+      </override>
+   </variant>
+   <!-- List: Title Screen -->
+   <variant name="gamelist-list-titlescreen">
+      <label>List: Title Screen</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>screenshot</mediaType>
+         <useVariant>gamelist-list-basic</useVariant>
+      </override>
+   </variant>
+   <!-- List: Physical Media -->
+   <variant name="gamelist-list-physicalmedia">
+      <label>List: Physical Media</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>screenshot</mediaType>
+         <useVariant>gamelist-list-basic</useVariant>
+      </override>
+   </variant>
+   <!-- List: Miximage -->
+   <variant name="gamelist-list-miximage">
+      <label>List: Miximage</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>screenshot</mediaType>
+         <useVariant>gamelist-list-basic</useVariant>
+      </override>
+   </variant>
+   <!-- List -->
+   <variant name="gamelist-list-basic">
+      <label>List</label>
+      <selectable>true</selectable>
+   </variant>
+   <!-- Carousel: Boxart -->
+   <!--<variant name="gamelist-carousel-cover">
+      <label>Carousel: Boxart</label>
+      <selectable>true</selectable>
+   </variant>-->
+   <!-- Grid: Boxart -->
+   <!--<variant name="gamelist-grid-cover">
+      <label>Grid: Boxart</label>
+      <selectable>true</selectable>
+   </variant>-->
+
+</themeCapabilities>

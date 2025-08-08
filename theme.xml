@@ -1,0 +1,387 @@
+<!--
+theme name:       SuperStation One Menu
+originally by:    RetroRemake (https://retroremake.co/)
+ported by:        Anthony Caccese
+license:          creative commons CC-BY-NC-SA
+https://github.com/anthonycaccese/superstation-one-menu-es-de
+-->
+<theme>
+
+   <!--
+   ///
+   System Metadata
+   ///
+   -->
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+
+   <!--
+   ///
+   Variables
+   ///
+   -->
+   <variables>
+      <defaultUserName>ES-DE</defaultUserName>
+      <defaultBackground>./_inc/images/space.png</defaultBackground>
+      <defaultFont>./_inc/fonts/FreePixel.ttf</defaultFont>
+   </variables>
+   <colorScheme name="
+      black,
+      green,
+      blue,
+      red
+      ">
+      <variables>
+         <colorSchemePath>./colors.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="
+      custom
+      ">
+      <variables>
+         <colorSchemePath>./theme-customizations/colors.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <include>${colorSchemePath}</include>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <!-- Start: menu styling resets -->
+      <clock name="clock-menu-view">
+         <scope>menu</scope>
+         <origin>0 0</origin>
+         <pos>0.0075 0.01</pos>
+         <backgroundColor>222222</backgroundColor>
+         <color>cccccc</color>
+         <backgroundHorizontalPadding>0.02 0.01</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.02 0.01</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+      </clock>
+      <systemstatus name="system-status-menu-view">
+         <scope>menu</scope>
+         <origin>1 0</origin>
+         <pos>0.99 0.01</pos>
+         <backgroundColor>222222</backgroundColor>
+         <color>cccccc</color>
+         <backgroundHorizontalPadding>0.0075 0.02</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.02 0.01</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+      </systemstatus>
+      <helpsystem name="help-menu-view">
+         <scope>menu</scope>
+         <origin>0.5 1</origin>
+         <pos>0.5 0.9875</pos>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>222222</backgroundColor>
+         <backgroundHorizontalPadding>0.01 0.01</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.015 0.02</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+         <entryRelativeScale>0.9</entryRelativeScale>
+      </helpsystem>
+      <!-- End: menu styling resets -->
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <path>${backgroundPath}</path>
+         <color>${backgroundColor}</color>
+         <tile>${backgroundTile}</tile>
+      </image>
+      <text name="user-name">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <text>${userName}</text>
+         <fontPath>${fontPath}</fontPath>
+         <fontSize>${wrapperFontSize}</fontSize>
+         <lineSpacing>${wrapperLineSpacing}</lineSpacing>
+         <color>${fontColorBase}</color>
+      </text>
+      <clock name="clock">
+         <origin>0.5 0</origin>
+         <pos>0.5 0</pos>
+         <fontPath>${fontPath}</fontPath>
+         <fontSize>${wrapperFontSize}</fontSize>
+         <color>${fontColorBase}</color>
+         <scope>view</scope>
+      </clock>
+      <systemstatus name="system-status">
+         <origin>1 0</origin>
+         <pos>1 0</pos>
+         <fontPath>${fontPath}</fontPath>
+         <color>${fontColorBase}</color>
+         <height>${wrapperFontSize}</height>
+         <customIcon icon="icon_bluetooth">./_inc/images/icon-bluetooth.svg</customIcon>
+         <customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
+         <customIcon icon="icon_cellular">./_inc/images/icon-cellular.svg</customIcon>
+         <customIcon icon="icon_battery_charging">./_inc/images/icon-battery-charging.svg</customIcon>
+         <customIcon icon="icon_battery_full">./_inc/images/icon-battery-full.svg</customIcon>
+         <customIcon icon="icon_battery_high">./_inc/images/icon-battery-high.svg</customIcon>
+         <customIcon icon="icon_battery_medium">./_inc/images/icon-battery-medium.svg</customIcon>
+         <customIcon icon="icon_battery_low">./_inc/images/icon-battery-low.svg</customIcon>
+         <textRelativeScale>1</textRelativeScale>
+         <scope>view</scope>
+      </systemstatus>
+      <text name="view-name">
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <fontPath>${fontPath}</fontPath>
+         <fontSize>${wrapperFontSize}</fontSize>
+         <lineSpacing>${wrapperLineSpacing}</lineSpacing>
+         <color>${fontColorBase}</color>
+      </text>
+      <helpsystem name="help-system-view,help-gamelist-view">
+         <scope>view</scope>
+         <origin>1 1</origin>
+         <pos>1 1</pos>
+         <fontPath>${fontPath}</fontPath>
+         <fontSize>${helpSystemFontSize}</fontSize>
+         <iconColor>${iconColorBase}</iconColor>
+         <textColor>${fontColorBase}</textColor>
+         <letterCase>capitalize</letterCase>
+         <entryRelativeScale>0.66666667</entryRelativeScale>
+      </helpsystem>
+   </view>
+   <fontSize name="medium">
+      <variables>
+         <textListFontSize>0.05555556</textListFontSize><!-- 60 -->
+         <textListLineSpacing>1.4625</textListLineSpacing>
+         <wrapperFontSize>0.02962963</wrapperFontSize><!-- 32 -->
+         <wrapperLineSpacing>1</wrapperLineSpacing>
+         <helpSystemFontSize>0.04444444</helpSystemFontSize><!-- 48 -->
+      </variables>
+   </fontSize>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <text name="view-name">
+         <text>Systems  /  ${systemHardwareType}</text>
+      </text>
+      <textlist name="system-textlist">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0.65 0.65</size>
+         <fontSize>${textListFontSize}</fontSize>
+         <lineSpacing>${textListLineSpacing}</lineSpacing>
+         <horizontalAlignment>center</horizontalAlignment>
+         <fontPath>${fontPath}</fontPath>
+         <systemNameSuffix>false</systemNameSuffix>
+         <selectorColor>00000000</selectorColor>
+         <selectedColor>${fontColorSelected}</selectedColor>
+         <primaryColor>${fontColorBase}</primaryColor>
+         <secondaryColor>${fontColorBase}</secondaryColor>
+         <selectedBackgroundColor>${selectorColor}</selectedBackgroundColor>
+         <selectedBackgroundCornerRadius>0.0025</selectedBackgroundCornerRadius>
+         <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+         <indicators>symbols</indicators>
+      </textlist>
+   </view>
+
+   <!--
+   ///
+   Gamelist View
+   ///
+   -->
+   <view name="gamelist">
+      <text name="view-name">
+         <text>Games  /  ${systemName}</text>
+      </text>
+   </view>
+
+   <!--
+   ///
+   Gamelist View Variants - Lists
+   ///
+   -->
+   <variant name="gamelist-list-basic,gamelist-list-cover,gamelist-list-screenshot,gamelist-list-titlescreen,gamelist-list-physicalmedia,gamelist-list-miximage">
+      <view name="gamelist">
+         <textlist name="gamelist-textlist">
+            <fontSize>${textListFontSize}</fontSize>
+            <lineSpacing>${textListLineSpacing}</lineSpacing>
+            <fontPath>${fontPath}</fontPath>
+            <systemNameSuffix>false</systemNameSuffix>
+            <selectorColor>00000000</selectorColor>
+            <selectedColor>${fontColorSelected}</selectedColor>
+            <primaryColor>${fontColorBase}</primaryColor>
+            <secondaryColor>${fontColorBase}</secondaryColor>
+            <selectedBackgroundColor>${selectorColor}</selectedBackgroundColor>
+            <selectedBackgroundCornerRadius>0.0025</selectedBackgroundCornerRadius>
+            <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+            <indicators>${indicators}</indicators>
+         </textlist>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - List: Basic
+   ///
+   -->
+   <variant name="gamelist-list-basic">
+      <view name="gamelist">
+         <textlist name="gamelist-textlist">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <size>0.65 0.65</size>
+            <horizontalAlignment>center</horizontalAlignment>
+         </textlist>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - Lists with Media
+   ///
+   -->
+   <variant name="gamelist-list-cover,gamelist-list-screenshot,gamelist-list-titlescreen,gamelist-list-physicalmedia,gamelist-list-miximage">
+      <view name="gamelist">
+         <textlist name="gamelist-textlist">
+            <origin>0 0.5</origin>
+            <pos>0.125 0.5</pos>
+            <size>0.325 0.65</size>
+            <horizontalAlignment>left</horizontalAlignment>
+         </textlist>
+         <video name="game-artwork">
+            <origin>1 0.5</origin>
+            <pos>0.875 0.5</pos>
+            <maxSize>0.325 0.65</maxSize>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>image</onIterationsDone>
+            <delay>3</delay>
+            <fadeInType>transparent</fadeInType>
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - List: Cover
+   ///
+   -->
+   <variant name="gamelist-list-cover">
+      <view name="gamelist">
+         <video name="game-artwork">
+            <imageType>cover</imageType>
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - List: Screenshot
+   ///
+   -->
+   <variant name="gamelist-list-screenshot">
+      <view name="gamelist">
+         <video name="game-artwork">
+            <imageType>screenshot</imageType>
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - List: Title Screen
+   ///
+   -->
+   <variant name="gamelist-list-titlescreen">
+      <view name="gamelist">
+         <video name="game-artwork">
+            <imageType>titlescreen</imageType>
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - List: Physical Media
+   ///
+   -->
+   <variant name="gamelist-list-physicalmedia">
+      <view name="gamelist">
+         <video name="game-artwork">
+            <imageType>physicalmedia</imageType>
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - List: Miximage
+   ///
+   -->
+   <variant name="gamelist-list-miximage">
+      <view name="gamelist">
+         <video name="game-artwork">
+            <imageType>miximage</imageType>
+         </video>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View Variants - Carousel: Cover
+   ///
+   -->
+   <!--<variant name="gamelist-carousel-cover">
+      <view name="gamelist">
+         <carousel name="gamelist-carousel">
+            <origin>0 0.5</origin>
+            <pos>0 0.5</pos>
+            <size>1 0.65</size>
+            <imageType>cover</imageType>
+            <color>00000000</color>
+            <maxItemCount>4</maxItemCount>
+            <itemSize>0.2 0.65</itemSize>
+            <horizontalOffset>-0.25</horizontalOffset>
+         </carousel>
+      </view>
+   </variant>-->
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio name="16:9">
+      <include>./aspect-ratio-16-9.xml</include>
+   </aspectRatio>
+
+   <!--
+   ///
+   Sounds
+   ///
+   -->
+   <view name="all">
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+</theme>

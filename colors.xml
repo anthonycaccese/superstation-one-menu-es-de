@@ -1,0 +1,78 @@
+<theme>
+   <colorScheme name="black">
+      <variables>
+         <!-- Background -->
+         <backgroundPath>${defaultBackground}</backgroundPath>
+         <backgroundTile>true</backgroundTile>
+         <backgroundColor>000000</backgroundColor>
+         <!-- Fonts -->
+         <fontPath>${defaultFont}</fontPath>
+         <fontColorBase>ffffff</fontColorBase>
+         <fontColorSelected>000000</fontColorSelected>
+         <!-- Icons -->
+         <iconColorBase>ffffff</iconColorBase>
+         <!-- Accents -->
+         <selectorColor>ffffff</selectorColor>
+         <indicators>ascii</indicators>
+         <!-- User -->
+         <userName>${defaultUserName}</userName>
+      </variables>
+   </colorScheme>
+   <colorScheme name="green">
+      <variables>
+         <!-- Background -->
+         <backgroundPath>${defaultBackground}</backgroundPath>
+         <backgroundTile>true</backgroundTile>
+         <backgroundColor>077617</backgroundColor>
+         <!-- Fonts -->
+         <fontPath>${defaultFont}</fontPath>
+         <fontColorBase>ffffff</fontColorBase>
+         <fontColorSelected>000000</fontColorSelected>
+         <!-- Icons -->
+         <iconColorBase>ffffff</iconColorBase>
+         <!-- Accents -->
+         <selectorColor>ffffff</selectorColor>
+         <indicators>ascii</indicators>
+         <!-- User -->
+         <userName>${defaultUserName}</userName>
+      </variables>
+   </colorScheme>
+   <colorScheme name="blue">
+      <variables>
+         <!-- Background -->
+         <backgroundPath>${defaultBackground}</backgroundPath>
+         <backgroundTile>true</backgroundTile>
+         <backgroundColor>07429E</backgroundColor>
+         <!-- Fonts -->
+         <fontPath>${defaultFont}</fontPath>
+         <fontColorBase>ffffff</fontColorBase>
+         <fontColorSelected>000000</fontColorSelected>
+         <!-- Icons -->
+         <iconColorBase>ffffff</iconColorBase>
+         <!-- Accents -->
+         <selectorColor>ffffff</selectorColor>
+         <indicators>ascii</indicators>
+         <!-- User -->
+         <userName>${defaultUserName}</userName>
+      </variables>
+   </colorScheme>
+   <colorScheme name="red">
+      <variables>
+         <!-- Background -->
+         <backgroundPath>${defaultBackground}</backgroundPath>
+         <backgroundTile>true</backgroundTile>
+         <backgroundColor>B00D0E</backgroundColor>
+         <!-- Fonts -->
+         <fontPath>${defaultFont}</fontPath>
+         <fontColorBase>ffffff</fontColorBase>
+         <fontColorSelected>000000</fontColorSelected>
+         <!-- Icons -->
+         <iconColorBase>ffffff</iconColorBase>
+         <!-- Accents -->
+         <selectorColor>ffffff</selectorColor>
+         <indicators>ascii</indicators>
+         <!-- User -->
+         <userName>${defaultUserName}</userName>
+      </variables>
+   </colorScheme>
+</theme>
