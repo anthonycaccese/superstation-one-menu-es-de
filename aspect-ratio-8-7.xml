@@ -1,6 +1,6 @@
 <!-- 
-16:9 aspect ratio
-based on 1920x1080
+8:7 aspect ratio
+based on 1234x1080
 -->
 <theme>
 
@@ -11,16 +11,16 @@ based on 1920x1080
    -->
    <view name="system,gamelist">
       <text name="user-name">
-         <pos>0.03125 0.05555556</pos><!-- 60 60 -->
+         <pos>0.04862237 0.05555556</pos><!-- 60 60 -->
       </text>
       <clock name="clock">
-         <pos>0.5 0.05555556</pos><!-- 60 60 -->
+         <pos>0.5 0.05555556</pos><!-- 50% 60 -->
       </clock>
       <systemstatus name="system-status">
-         <pos>0.96875 0.05555556</pos><!-- 1860 60 -->
+         <pos>0.95137763 0.05555556</pos><!-- 1174 60 -->
       </systemstatus>
       <text name="view-name">
-         <pos>0.03125 0.94444444</pos><!-- 60 1020 -->
+         <pos>0.04862237 0.94444444</pos><!-- 60 1020 -->
       </text>
       <helpsystem name="help-system-view,help-gamelist-view">
          <pos>${helpsystemPos}</pos>
@@ -43,7 +43,7 @@ based on 1920x1080
       <textlist name="system-textlist">
          <pos>0.5 0.5</pos>
          <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
-         <size>0.65 0.65</size><!-- 1248 702 -->
+         <size>0.70502431 0.65</size><!-- 870 702 -->
       </textlist>
    </view>
    <!--
@@ -66,30 +66,30 @@ based on 1920x1080
       <view name="gamelist">
          <textlist name="gamelist-textlist">
             <pos>0.5 0.5</pos><!-- 50% 50% -->
-            <size>0.65 0.65</size><!-- 1248 702 -->
+            <size>0.70502431 0.65</size><!-- 870 702 -->
          </textlist>
       </view>
    </variant>
    <variant name="gamelist-list-cover,gamelist-list-screenshot,gamelist-list-titlescreen,gamelist-list-physicalmedia,gamelist-list-miximage">
       <view name="gamelist">
          <textlist name="gamelist-textlist">
-            <pos>0.125 0.5</pos><!-- 240 50% -->
-            <size>0.325 0.65</size><!-- 624 702 -->
+            <pos>0.09724473 0.5</pos><!-- 120 50% -->
+            <size>0.36466775 0.65</size><!-- 450 702 -->
          </textlist>
          <video name="game-artwork">
-            <pos>0.875 0.5</pos><!-- 1680 50% -->
-            <maxSize>0.325 0.65</maxSize><!-- 624 702 -->
+            <pos>0.90275527 0.5</pos><!-- 1114 50% -->
+            <maxSize>0.36466775 0.65</maxSize><!-- 450 702 -->
          </video>
       </view>
    </variant>
    <variant name="gamelist-carousel-cover">
       <view name="gamelist">
          <text name="game-name">
-            <pos>0.13020833 0.26851852</pos><!-- 250 290 -->
-            <size>0.73958333 0.06481481</size><!-- 1420 70 -->
+            <pos>0.11345219 0.27037037</pos><!-- 140 292 -->
+            <size>0.77309562 0.06481481</size><!-- 954 70 -->
          </text>
          <carousel name="gamelist-carousel">
-            <verticalOffset>0.31481481</verticalOffset><!-- 340 -->
+            <verticalOffset>0.32222222</verticalOffset><!-- 348 -->
             <!-- Carousel sizing handled in _inc/systems/coversize -->
          </carousel>
       </view>
@@ -101,42 +101,42 @@ based on 1920x1080
    -->
    <fontSize name="small">
       <variables>
-         <selectedBackgroundMargins>0.01458333 0.01458333</selectedBackgroundMargins><!-- 28 -->
+         <selectedBackgroundMargins>0.01944444 0.01944444</selectedBackgroundMargins><!-- 24 -->
          <helpSystemViewEntries>start,a</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a,b</helpGamelistViewEntries>
-         <helpsystemPos>0.96875 0.95185185</helpsystemPos><!-- 1860 1028 -->
-         <helpSystemIconTextSpacing>0.00416667</helpSystemIconTextSpacing><!-- 8 -->
-         <helpSystemEntrySpacing>0.0125</helpSystemEntrySpacing><!-- 24 -->
+         <helpsystemPos>0.95137763 0.95185185</helpsystemPos><!-- 1174 1028 -->
+         <helpSystemIconTextSpacing>0.00648298</helpSystemIconTextSpacing><!-- 8 -->
+         <helpSystemEntrySpacing>0.01944895</helpSystemEntrySpacing><!-- 24 -->
       </variables>
    </fontSize>
    <fontSize name="medium">
       <variables>
-         <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 48 -->
+         <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 30 -->
          <helpSystemViewEntries>start,a</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a,b</helpGamelistViewEntries>
-         <helpsystemPos>0.96875 0.95185185</helpsystemPos><!-- 1860 1028 -->
-         <helpSystemIconTextSpacing>0.00416667</helpSystemIconTextSpacing><!-- 8 -->
-         <helpSystemEntrySpacing>0.0125</helpSystemEntrySpacing><!-- 24 -->
+         <helpsystemPos>0.95137763 0.95185185</helpsystemPos><!-- 1174 1028 -->
+         <helpSystemIconTextSpacing>0.00648298</helpSystemIconTextSpacing><!-- 8 -->
+         <helpSystemEntrySpacing>0.01944895</helpSystemEntrySpacing><!-- 24 -->
       </variables>
    </fontSize>
    <fontSize name="large">
       <variables>
-         <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 48 -->
+         <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 30 -->
          <helpSystemViewEntries>start,a</helpSystemViewEntries>
          <helpGamelistViewEntries>a,b</helpGamelistViewEntries>
-         <helpsystemPos>0.96875 0.94444444</helpsystemPos><!-- 1860 1020 -->
-         <helpSystemIconTextSpacing>0.00625</helpSystemIconTextSpacing><!-- 12 -->
-         <helpSystemEntrySpacing>0.01458333</helpSystemEntrySpacing><!-- 28 -->
+         <helpsystemPos>0.95137763 0.94444444</helpsystemPos><!-- 1174 1020 -->
+         <helpSystemIconTextSpacing>0.00972447</helpSystemIconTextSpacing><!-- 12 -->
+         <helpSystemEntrySpacing>0.02269044</helpSystemEntrySpacing><!-- 28 -->
       </variables>
    </fontSize>
    <fontSize name="x-large">
       <variables>
-         <selectedBackgroundMargins>0.025 0.025</selectedBackgroundMargins><!-- 48 -->
+         <selectedBackgroundMargins>0.02916667 0.02916667</selectedBackgroundMargins><!-- 36 -->
          <helpSystemViewEntries>start,a</helpSystemViewEntries>
          <helpGamelistViewEntries>a,b</helpGamelistViewEntries>
-         <helpsystemPos>0.96875 0.94444444</helpsystemPos><!-- 1860 1020 -->
-         <helpSystemIconTextSpacing>0.00625</helpSystemIconTextSpacing><!-- 12 -->
-         <helpSystemEntrySpacing>0.01458333</helpSystemEntrySpacing><!-- 28 -->
+         <helpsystemPos>0.95137763 0.94444444</helpsystemPos><!-- 1174 1020 -->
+         <helpSystemIconTextSpacing>0.00972447</helpSystemIconTextSpacing><!-- 12 -->
+         <helpSystemEntrySpacing>0.02269044</helpSystemEntrySpacing><!-- 28 -->
       </variables>
    </fontSize>
 

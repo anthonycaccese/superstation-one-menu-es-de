@@ -1,12 +1,32 @@
 <theme>
    <variant name="gamelist-carousel-cover">
-      <aspectRatio name="16:9,4:3">
+      <aspectRatio name="16:9">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
                <maxItemCount>3.9</maxItemCount>
                <itemSize>0.21875 0.41666667</itemSize><!-- 420 450 -->
                <selectedItemMargins>0.02 0.02</selectedItemMargins>
                <horizontalOffset>-0.24</horizontalOffset>
+            </carousel>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="4:3">
+         <view name="gamelist">
+            <carousel name="gamelist-carousel">
+               <maxItemCount>3.25</maxItemCount>
+               <itemSize>0.27777778 0.37037037</itemSize><!-- 400 400 -->
+               <selectedItemMargins>0.0275 0.0275</selectedItemMargins>
+               <horizontalOffset>-0.2</horizontalOffset>
+            </carousel>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="8:7">
+         <view name="gamelist">
+            <carousel name="gamelist-carousel">
+               <maxItemCount>2.75</maxItemCount>
+               <itemSize>0.32414911 0.37037037</itemSize><!-- 400 400 -->
+               <selectedItemMargins>0.0275 0.0275</selectedItemMargins>
+               <horizontalOffset>-0.19</horizontalOffset>
             </carousel>
          </view>
       </aspectRatio>

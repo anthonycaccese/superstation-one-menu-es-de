@@ -333,9 +333,9 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
             <systemNameSuffix>false</systemNameSuffix>
          </text>
          <carousel name="gamelist-carousel">
-            <origin>0 0.5</origin>
-            <pos>0 0.56481481</pos><!-- 0 610 -->
-            <size>1 0.5</size><!-- 0 50% -->
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
             <imageType>cover</imageType>
             <fastScrolling>true</fastScrolling>
             <color>00000000</color>
@@ -345,6 +345,8 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
             <imageCornerRadius>0.0025</imageCornerRadius>
             <imageColor>ffffff</imageColor>
             <imageSelectedColor>ffffff</imageSelectedColor>
+            <imageFit>cover</imageFit>
+            <imageCropPos>0 0</imageCropPos>
             <fontPath>${fontPath}</fontPath>
             <fontSize>0.02962963</fontSize><!-- 32 -->
             <lineSpacing>1</lineSpacing>
@@ -405,6 +407,9 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
    </aspectRatio>
    <aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
+   </aspectRatio>
+   <aspectRatio name="8:7">
+      <include>./aspect-ratio-8-7.xml</include>
    </aspectRatio>
 
    <!--

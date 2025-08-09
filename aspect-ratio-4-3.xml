@@ -1,5 +1,5 @@
 <!-- 
-16:9 aspect ratio
+4:3 aspect ratio
 based on 1440x1080
 -->
 <theme>
@@ -85,10 +85,13 @@ based on 1440x1080
    <variant name="gamelist-carousel-cover">
       <view name="gamelist">
          <text name="game-name">
-            <pos>0.13020833 0.26851852</pos><!-- 250 290 -->
-            <size>0.73958333 0.06481481</size><!-- 1420 70 -->
+            <pos>0.13194444 0.27037037</pos><!-- 190 292 -->
+            <size>0.73611111 0.06481481</size><!-- 1060 70 -->
          </text>
-         <!-- Carousel sizing handled in _inc/systems/coversize -->
+         <carousel name="gamelist-carousel">
+            <verticalOffset>0.32222222</verticalOffset><!-- 348 -->
+            <!-- Carousel sizing handled in _inc/systems/coversize -->
+         </carousel>
       </view>
    </variant>
    <!--
