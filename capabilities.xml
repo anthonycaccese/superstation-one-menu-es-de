@@ -127,10 +127,5 @@
       <label>Carousel: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <!-- Grid: Boxart -->
-   <!--<variant name="gamelist-grid-cover">
-      <label>Grid: Boxart</label>
-      <selectable>true</selectable>
-   </variant>-->
 
 </themeCapabilities>
