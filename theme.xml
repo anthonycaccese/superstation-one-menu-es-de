@@ -321,31 +321,34 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
    ///
    -->
    <variant name="gamelist-carousel-cover">
+      <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <text name="game-name">
-            <origin>0 0</origin>
+            <origin>0 1</origin>
             <metadata>name</metadata>
             <fontPath>${fontPath}</fontPath>
-            <fontSize>0.05555556</fontSize><!-- 60 -->
+            <fontSize>0.06481481</fontSize><!-- 70 -->
             <lineSpacing>1</lineSpacing>
             <color>${fontColorBase}</color>
+            <systemNameSuffix>false</systemNameSuffix>
          </text>
          <carousel name="gamelist-carousel">
             <origin>0 0.5</origin>
-            <pos>0 0.56851852</pos><!-- 0 614 -->
+            <pos>0 0.56481481</pos><!-- 0 610 -->
             <size>1 0.5</size><!-- 0 50% -->
             <imageType>cover</imageType>
             <fastScrolling>true</fastScrolling>
             <color>00000000</color>
-            <horizontalOffset>-0.25</horizontalOffset>
             <itemVerticalAlignment>top</itemVerticalAlignment>
-            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <unfocusedItemOpacity>0.75</unfocusedItemOpacity>
+            <defaultImage>./_inc/images/default-image.png</defaultImage>
             <imageCornerRadius>0.0025</imageCornerRadius>
+            <imageColor>ffffff</imageColor>
+            <imageSelectedColor>ffffff</imageSelectedColor>
             <fontPath>${fontPath}</fontPath>
+            <fontSize>0.02962963</fontSize><!-- 32 -->
             <lineSpacing>1</lineSpacing>
             <textColor>ffffff</textColor>
-            <textBackgroundColor>222222</textBackgroundColor>
-            <textBackgroundCornerRadius>0.0025</textBackgroundCornerRadius>
          </carousel>
       </view>
    </variant>
