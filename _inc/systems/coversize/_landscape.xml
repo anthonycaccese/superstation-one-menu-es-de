@@ -35,8 +35,17 @@
                <maxItemCount>2.4</maxItemCount>
                <itemSize>0.37083333 0.37037037</itemSize><!-- 534 400 -->
                <selectedItemMargins>0.0275 0.0275</selectedItemMargins>
-               <horizontalOffset>-0.15</horizontalOffset>
+               <horizontalOffset>-0.147</horizontalOffset>
             </carousel>
+            <video name="game-video">
+               <pos>0.13 0.32222222</pos><!-- - 348 -->
+               <cropSize>0.44513889 0.44444444</cropSize><!-- 641 480 -->
+            </video>
+            <image name="carousel-selector">
+               <pos>0.13 0.32222222</pos><!-- - 348 -->
+               <size>0.44513889 0.44444444</size><!-- 641 480 -->
+               <path>./_landscape.svg</path>
+            </image>
          </view>
       </aspectRatio>
       <aspectRatio name="8:7">
