@@ -1,14 +1,14 @@
-# SuperStation One Menu for ES-DE
+# SuperStation<sup>one</sup> Menu for ES-DE
 
-This is a translation of the SuperStation One menu interface for ES-DE (originally designed & created by RetroRemake)
+This is a translation of the SuperStation<sup>one</sup> menu interface for ES-DE (originally designed & created by RetroRemake)
 
 My work focused on tranlating the layout so that it could be buildable in the theme engine for ES-DE.  Please refer to the `Changes Made` section below for additional details. 
 
-The original version of the UI can be found as part of the OS available on the SuperStation One made by [RetroRemake](https://retroremake.co/pages/superstation%E1%B5%92%E2%81%BF%E1%B5%89)
+The original version of the UI can be found as part of the OS available on the SuperStation<sup>one</sup> made by [RetroRemake](https://retroremake.co/pages/superstation%E1%B5%92%E2%81%BF%E1%B5%89)
 
 ## Changes Made
 
-- Used [SuperStation One UI designs](https://x.com/TakiUdon_/status/1901576056966086781) to approximate the elements that would be used build a theme compatible with ES-DE.
+- Used [SuperStation<sup>one</sup> UI designs](https://x.com/TakiUdon_/status/1901576056966086781) to approximate the elements that would be used build a theme compatible with ES-DE.
 - Changed the helpsystem to ES-DE's native component and created a layout that tries to evoke the original helpsystem design
 - Added icons and badges specific to ES-DE functionality
 - Added a framework for adding additional color schemes and added RGB options to start
@@ -16,9 +16,15 @@ The original version of the UI can be found as part of the OS available on the S
 
 ## **Preview**
 
-| System View | Gamelist View: List | Gamelist View: Carousel |
-|----|----|----|
-| ![System View](https://github.com/user-attachments/assets/b712241c-05d6-4d30-9715-42e98e2b6ce3) | ![Gamelist View - List](https://github.com/user-attachments/assets/d46f7b9c-1688-4204-a4bf-8a9fbbde15e4) | ![Gamelist View - Carousel](https://github.com/user-attachments/assets/b17991b8-3be2-4212-a111-1834dca1d7b3) |
+<table>
+   <tr>
+      <td colspan="2"><img src="https://github.com/user-attachments/assets/b712241c-05d6-4d30-9715-42e98e2b6ce3"/></td>
+   </tr>
+   <tr>
+      <td><img src="https://github.com/user-attachments/assets/d46f7b9c-1688-4204-a4bf-8a9fbbde15e4"/></td>
+      <td><img src="https://github.com/user-attachments/assets/b17991b8-3be2-4212-a111-1834dca1d7b3"/></td>
+   </tr>
+</table>
 
 ## **Configuration Options**
 
@@ -88,5 +94,5 @@ A custom color scheme lets you to modify any of the colors, images and fonts use
 
 ## **Credits:**
 
-- The SuperStation One UI was originally created & designed by [RetroRemake](https://retroremake.co/pages/superstation%E1%B5%92%E2%81%BF%E1%B5%89)
+- The SuperStation<sup>one</sup> UI was originally created & designed by [RetroRemake](https://retroremake.co/pages/superstation%E1%B5%92%E2%81%BF%E1%B5%89)
 - The included font is called ["Free Pixel"](https://www.dafont.com/free-pixel.font) and created by levelb
