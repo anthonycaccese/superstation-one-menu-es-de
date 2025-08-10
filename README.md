@@ -1,6 +1,6 @@
 # SuperStation One Menu for ES-DE
 
-This is a tranlation of the SuperStation One menu interface for ES-DE (originally designed & created by RetroRemake)
+This is a translation of the SuperStation One menu interface for ES-DE (originally designed & created by RetroRemake)
 
 My work focused on tranlating the layout so that it could be buildable in the theme engine for ES-DE.  Please refer to the `Changes Made` section below for additional details. 
 
@@ -16,7 +16,9 @@ The original version of the UI can be found as part of the OS available on the S
 
 ## **Preview**
 
-
+| System View | Gamelist View: List | Gamelist View: Carousel |
+|----|----|----|
+| ![System View](https://github.com/user-attachments/assets/b712241c-05d6-4d30-9715-42e98e2b6ce3) | ![Gamelist View - List](https://github.com/user-attachments/assets/d46f7b9c-1688-4204-a4bf-8a9fbbde15e4) | ![Gamelist View - Carousel](https://github.com/user-attachments/assets/b17991b8-3be2-4212-a111-1834dca1d7b3) |
 
 ## **Configuration Options**
 
