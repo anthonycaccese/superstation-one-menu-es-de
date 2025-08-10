@@ -85,11 +85,11 @@ based on 1920x1080
    <variant name="gamelist-carousel-cover">
       <view name="gamelist">
          <text name="game-name">
-            <pos>0.13020833 0.26851852</pos><!-- 250 290 -->
+            <pos>0.13020833 0.27037037</pos><!-- 250 292 -->
             <size>0.73958333 0.06481481</size><!-- 1420 70 -->
          </text>
          <carousel name="gamelist-carousel">
-            <verticalOffset>0.31481481</verticalOffset><!-- 340 -->
+            <verticalOffset>0.32222222</verticalOffset><!-- 348 -->
             <!-- Carousel sizing handled in _inc/systems/coversize -->
          </carousel>
       </view>
