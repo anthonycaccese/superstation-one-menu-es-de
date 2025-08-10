@@ -25,8 +25,17 @@
                <maxItemCount>4.6</maxItemCount>
                <itemSize>0.18518519 0.37037037</itemSize><!-- 300 400 -->
                <selectedItemMargins>0.02 0.02</selectedItemMargins>
-               <horizontalOffset>-0.31</horizontalOffset>
+               <horizontalOffset>-0.309</horizontalOffset>
             </carousel>
+            <video name="game-video">
+               <pos>0.08024691 0.32222222</pos><!-- - 348 -->
+               <cropSize>0.22222222 0.44444444</cropSize><!-- 360 480 -->
+            </video>
+            <image name="carousel-selector">
+               <pos>0.08024691 0.32222222</pos><!-- - 348 -->
+               <size>0.22222222 0.44444444</size><!-- 360 480 -->
+               <path>./_portrait.svg</path>
+            </image>
          </view>
       </aspectRatio>
       <aspectRatio name="4:3">
