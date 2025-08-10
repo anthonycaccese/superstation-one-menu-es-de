@@ -65,6 +65,15 @@
                <selectedItemMargins>0.0275 0.0275</selectedItemMargins>
                <horizontalOffset>-0.24</horizontalOffset>
             </carousel>
+            <video name="game-video">
+               <pos>0.11345219 0.32222222</pos><!-- - 348 -->
+               <cropSize>0.29254457 0.44444444</cropSize><!-- 360 480 -->
+            </video>
+            <image name="carousel-selector">
+               <pos>0.11345219 0.32222222</pos><!-- - 348 -->
+               <size>0.29254457 0.44444444</size><!-- 360 480 -->
+               <path>./_portrait.svg</path>
+            </image>
          </view>
       </aspectRatio>
       <aspectRatio name="1:1">
