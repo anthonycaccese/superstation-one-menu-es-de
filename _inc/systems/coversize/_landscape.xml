@@ -10,11 +10,11 @@
             </carousel>
             <video name="game-video">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
-               <cropSize>0.33333333 0.44444444</cropSize><!-- 640 480 -->
+               <cropSize>0.33385417 0.44444444</cropSize><!-- 641 480 -->
             </video>
             <image name="carousel-selector">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
-               <size>0.33333333 0.44444444</size><!-- 640 480 -->
+               <size>0.33385417 0.44444444</size><!-- 641 480 -->
                <path>./_landscape.svg</path>
             </image>
          </view>
