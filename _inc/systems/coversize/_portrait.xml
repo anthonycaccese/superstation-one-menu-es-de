@@ -10,6 +10,16 @@
             </carousel>
          </view>
       </aspectRatio>
+      <aspectRatio name="3:2">
+         <view name="gamelist">
+            <carousel name="gamelist-carousel">
+               <maxItemCount>4.6</maxItemCount>
+               <itemSize>0.18518519 0.37037037</itemSize><!-- 300 400 -->
+               <selectedItemMargins>0.02 0.02</selectedItemMargins>
+               <horizontalOffset>-0.31</horizontalOffset>
+            </carousel>
+         </view>
+      </aspectRatio>
       <aspectRatio name="4:3">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
