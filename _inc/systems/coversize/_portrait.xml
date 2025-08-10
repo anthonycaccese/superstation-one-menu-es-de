@@ -10,7 +10,7 @@
             </carousel>
          </view>
       </aspectRatio>
-      <aspectRatio name="3:2">
+      <aspectRatio name="3:2,16:10">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
                <maxItemCount>4.6</maxItemCount>
