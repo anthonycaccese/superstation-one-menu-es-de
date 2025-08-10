@@ -92,6 +92,23 @@ based on 1920x1080
             <verticalOffset>0.32222222</verticalOffset><!-- 348 -->
             <!-- Carousel sizing handled in _inc/systems/coversize -->
          </carousel>
+         <video name="game-video">
+            <origin>0 0</origin>
+            <imageType>none</imageType>
+            <delay>2</delay>
+            <fadeInType>black</fadeInType>
+            <videoCornerRadius>0.0025</videoCornerRadius>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>none</onIterationsDone>
+            <zIndex>15</zIndex>
+         </video>
+         <image name="carousel-selector">
+            <origin>0 0</origin>
+            <color>${selectorColor}</color>
+            <cornerRadius>0.0025</cornerRadius>
+            <metadataElement>true</metadataElement>
+            <zIndex>20</zIndex>
+         </image>
       </view>
    </variant>
    <!--

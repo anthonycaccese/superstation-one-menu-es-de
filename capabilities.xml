@@ -131,6 +131,11 @@
    <variant name="gamelist-carousel-cover">
       <label>Carousel: Boxart</label>
       <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>screenshot</mediaType>
+         <useVariant>gamelist-list-basic</useVariant>
+      </override>
    </variant>
 
 </themeCapabilities>

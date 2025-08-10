@@ -91,6 +91,7 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
          <path>${backgroundPath}</path>
          <color>${backgroundColor}</color>
          <tile>${backgroundTile}</tile>
+         <zIndex>0</zIndex>
       </image>
       <text name="user-name">
          <origin>0 0</origin>
@@ -343,14 +344,13 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
             <unfocusedItemOpacity>0.75</unfocusedItemOpacity>
             <defaultImage>./_inc/images/default-image.png</defaultImage>
             <imageCornerRadius>0.0025</imageCornerRadius>
-            <imageColor>ffffff</imageColor>
-            <imageSelectedColor>ffffff</imageSelectedColor>
             <imageFit>cover</imageFit>
             <imageCropPos>0 0</imageCropPos>
             <fontPath>${fontPath}</fontPath>
             <fontSize>0.02962963</fontSize><!-- 32 -->
             <lineSpacing>1</lineSpacing>
             <textColor>ffffff</textColor>
+            <zIndex>10</zIndex>
          </carousel>
       </view>
    </variant>
