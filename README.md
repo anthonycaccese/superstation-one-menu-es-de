@@ -87,6 +87,21 @@ A custom color scheme lets you to modify any of the colors, images and fonts use
     
 4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `Custom` and you should see your custom color scheme display.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
 
+#### Examples:
+
+Changing the values for each property should enable you to create various color schemes. Here are a few examples that have been made using the same properties:
+
+<table>
+   <tr>
+      <td>
+         <img src="https://github.com/user-attachments/assets/209d99e8-d6de-445e-b5a3-746b7b793a6c" />
+      </td>
+      <td>
+         <img src="https://github.com/user-attachments/assets/d1861a2a-9674-4b38-9b34-9710f4359197" />
+      </td>
+   </tr>
+</table>
+
 > [!NOTE]
 > If you make a custom color scheme and are comfortable with sharing it, I would love to check it out 😊
 > - Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
