@@ -1,0 +1,143 @@
+<!-- 
+1:1 aspect ratio
+based on 1080x1080
+-->
+<theme>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <text name="user-name">
+         <pos>0.05555556 0.05555556</pos><!-- 60 60 -->
+      </text>
+      <clock name="clock">
+         <pos>0.5 0.05555556</pos><!-- 50% 60 -->
+      </clock>
+      <systemstatus name="system-status">
+         <pos>0.94444444 0.05555556</pos><!-- 1020 60 -->
+      </systemstatus>
+      <text name="view-name">
+         <pos>0.05555556 0.94444444</pos><!-- 60 1020 -->
+      </text>
+      <helpsystem name="help-system-view,help-gamelist-view">
+         <pos>${helpsystemPos}</pos>
+         <iconTextSpacing>${helpSystemIconTextSpacing}</iconTextSpacing>
+         <entrySpacing>${helpSystemEntrySpacing}</entrySpacing>
+      </helpsystem>
+   </view>
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <helpsystem name="help-system-view">
+         <entries>${helpSystemViewEntries}</entries>
+      </helpsystem>
+      <helpsystem name="help-gamelist-view">
+         <scope>none</scope>
+      </helpsystem>
+      <textlist name="system-textlist">
+         <pos>0.5 0.5</pos>
+         <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
+         <size>0.74074074 0.65</size><!-- 800 702 -->
+      </textlist>
+   </view>
+   <!--
+   ///
+   Gamelist View
+   ///
+   -->
+   <view name="gamelist">
+      <helpsystem name="help-system-view">
+         <scope>none</scope>
+      </helpsystem>
+      <helpsystem name="help-gamelist-view">
+         <entries>${helpGamelistViewEntries}</entries>
+      </helpsystem>
+      <textlist name="gamelist-textlist">
+         <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
+      </textlist>
+   </view>
+   <variant name="gamelist-list-basic">
+      <view name="gamelist">
+         <textlist name="gamelist-textlist">
+            <pos>0.5 0.5</pos><!-- 50% 50% -->
+            <size>0.74074074 0.65</size><!-- 800 702 -->
+         </textlist>
+      </view>
+   </variant>
+   <variant name="gamelist-list-cover,gamelist-list-screenshot,gamelist-list-titlescreen,gamelist-list-physicalmedia,gamelist-list-miximage">
+      <view name="gamelist">
+         <textlist name="gamelist-textlist">
+            <pos>0.08333333 0.5</pos><!-- 90 50% -->
+            <size>0.37962963 0.65</size><!-- 410 702 -->
+         </textlist>
+         <video name="game-artwork">
+            <pos>0.91666667 0.5</pos><!-- 990 50% -->
+            <maxSize>0.37962963 0.65</maxSize><!-- 410 702 -->
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-carousel-cover">
+      <view name="gamelist">
+         <text name="game-name">
+            <pos>0.07407407 0.27037037</pos><!-- 80 292 -->
+            <size>0.85185185 0.06481481</size><!-- 920 70 -->
+         </text>
+         <carousel name="gamelist-carousel">
+            <verticalOffset>0.32222222</verticalOffset><!-- 348 -->
+            <!-- Carousel sizing handled in _inc/systems/coversize -->
+         </carousel>
+      </view>
+   </variant>
+   <!--
+   ///
+   Font Sizes
+   ///
+   -->
+   <fontSize name="small">
+      <variables>
+         <selectedBackgroundMargins>0.02222222 0.02222222</selectedBackgroundMargins><!-- 24 -->
+         <helpSystemViewEntries>start,a</helpSystemViewEntries>
+         <helpGamelistViewEntries>a,b</helpGamelistViewEntries>
+         <helpsystemPos>0.94444444 0.95185185</helpsystemPos><!-- 1020 1028 -->
+         <helpSystemIconTextSpacing>0.00740741</helpSystemIconTextSpacing><!-- 8 -->
+         <helpSystemEntrySpacing>0.02222222</helpSystemEntrySpacing><!-- 24 -->
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <selectedBackgroundMargins>0.02777778 0.02777778</selectedBackgroundMargins><!-- 30 -->
+         <helpSystemViewEntries>start,a</helpSystemViewEntries>
+         <helpGamelistViewEntries>a,b</helpGamelistViewEntries>
+         <helpsystemPos>0.94444444 0.95185185</helpsystemPos><!-- 1020 1028 -->
+         <helpSystemIconTextSpacing>0.00740741</helpSystemIconTextSpacing><!-- 8 -->
+         <helpSystemEntrySpacing>0.02222222</helpSystemEntrySpacing><!-- 24 -->
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <selectedBackgroundMargins>0.02777778 0.02777778</selectedBackgroundMargins><!-- 30 -->
+         <helpSystemViewEntries>start,a</helpSystemViewEntries>
+         <helpGamelistViewEntries>a</helpGamelistViewEntries>
+         <helpsystemPos>0.94444444 0.94444444</helpsystemPos><!-- 1020 1020 -->
+         <helpSystemIconTextSpacing>0.01111111</helpSystemIconTextSpacing><!-- 12 -->
+         <helpSystemEntrySpacing>0.02592593</helpSystemEntrySpacing><!-- 28 -->
+      </variables>
+   </fontSize>
+   <fontSize name="x-large">
+      <variables>
+         <selectedBackgroundMargins>0.03333333 0.03333333</selectedBackgroundMargins><!-- 36 -->
+         <helpSystemViewEntries>start,a</helpSystemViewEntries>
+         <helpGamelistViewEntries>a</helpGamelistViewEntries>
+         <helpsystemPos>0.94444444 0.94444444</helpsystemPos><!-- 1020 1020 -->
+         <helpSystemIconTextSpacing>0.01111111</helpSystemIconTextSpacing><!-- 12 -->
+         <helpSystemEntrySpacing>0.02592593</helpSystemEntrySpacing><!-- 28 -->
+      </variables>
+   </fontSize>
+
+</theme>

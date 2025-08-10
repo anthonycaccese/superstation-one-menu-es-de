@@ -10,6 +10,7 @@
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>4:3</aspectRatio>
    <aspectRatio>8:7</aspectRatio>
+   <aspectRatio>1:1</aspectRatio>
 
    <!--
    ///
@@ -68,6 +69,11 @@
    Variants
    ///
    -->
+   <!-- List -->
+   <variant name="gamelist-list-basic">
+      <label>List</label>
+      <selectable>true</selectable>
+   </variant>
    <!-- List: Boxart -->
    <variant name="gamelist-list-cover">
       <label>List: Boxart</label>
@@ -117,11 +123,6 @@
          <mediaType>screenshot</mediaType>
          <useVariant>gamelist-list-basic</useVariant>
       </override>
-   </variant>
-   <!-- List -->
-   <variant name="gamelist-list-basic">
-      <label>List</label>
-      <selectable>true</selectable>
    </variant>
    <!-- Carousel: Boxart -->
    <variant name="gamelist-carousel-cover">
