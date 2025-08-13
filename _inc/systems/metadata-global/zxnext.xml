@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>2017</systemReleaseDateFormated>
         <systemHardwareType>Computer</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>32323D</systemColor>
         <systemColorPalette1>CA2825</systemColorPalette1>
         <systemColorPalette2>EDBA01</systemColorPalette2>

@@ -10,6 +10,7 @@ The Neo Geo Pocket is considered to be an unsuccessful console. Lower than expec
         <systemReleaseDateFormated>December 31, 1998</systemReleaseDateFormated>
         <systemHardwareType>Portable</systemHardwareType>
         <systemCoverSize>373-436</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>f4a141</systemColor>
         <systemColorPalette1>B2B8BD</systemColorPalette1>
         <systemColorPalette2>E92A30</systemColorPalette2>

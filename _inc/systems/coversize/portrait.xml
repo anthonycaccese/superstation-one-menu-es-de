@@ -15,7 +15,7 @@
             <image name="carousel-selector">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
                <size>0.1875 0.44444444</size><!-- 360 480 -->
-               <path>./_portrait.svg</path>
+               <path>./portrait.svg</path>
             </image>
          </view>
       </aspectRatio>
@@ -34,7 +34,7 @@
             <image name="carousel-selector">
                <pos>0.08024691 0.32222222</pos><!-- - 348 -->
                <size>0.22222222 0.44444444</size><!-- 360 480 -->
-               <path>./_portrait.svg</path>
+               <path>./portrait.svg</path>
             </image>
          </view>
       </aspectRatio>
@@ -53,7 +53,7 @@
             <image name="carousel-selector">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
                <size>0.25 0.44444444</size><!-- 360 480 -->
-               <path>./_portrait.svg</path>
+               <path>./portrait.svg</path>
             </image>
          </view>
       </aspectRatio>
@@ -72,7 +72,7 @@
             <image name="carousel-selector">
                <pos>0.11345219 0.32222222</pos><!-- - 348 -->
                <size>0.29254457 0.44444444</size><!-- 360 480 -->
-               <path>./_portrait.svg</path>
+               <path>./portrait.svg</path>
             </image>
          </view>
       </aspectRatio>
@@ -91,7 +91,7 @@
             <image name="carousel-selector">
                <pos>0.07407407 0.32222222</pos><!-- - 348 -->
                <size>0.33333333 0.44444444</size><!-- 360 480 -->
-               <path>./_portrait.svg</path>
+               <path>./portrait.svg</path>
             </image>
          </view>
       </aspectRatio>

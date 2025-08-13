@@ -1,4 +1,4 @@
-﻿<theme>
+<theme>
     <variables>
         <systemName>Vircon32</systemName>
         <systemDescription>Vircon32 is a virtual console inspired by classic 16- and 32-bit systems as well as the arcade era.</systemDescription>
@@ -7,7 +7,8 @@
         <systemReleaseDate>2021</systemReleaseDate>
         <systemReleaseDateFormated>2021</systemReleaseDateFormated>
         <systemHardwareType>Engine</systemHardwareType>
-        <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSize>4-3</systemCoverSize>
+        <systemCoverSizeType>landscape</systemCoverSizeType>
         <systemColor>3F616F</systemColor>
         <systemColorPalette1>80B3FF</systemColorPalette1>
         <systemColorPalette2>00FFFF</systemColorPalette2>

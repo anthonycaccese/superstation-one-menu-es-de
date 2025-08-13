@@ -10,6 +10,7 @@ Development of the Saturn began in 1992, the same year Sega's groundbreaking 3D 
         <systemReleaseDateFormated>May 11, 1995</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>145-205</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>567ddd</systemColor>
         <systemColorPalette1>0D7176</systemColorPalette1>
         <systemColorPalette2>D1AE44</systemColorPalette2>

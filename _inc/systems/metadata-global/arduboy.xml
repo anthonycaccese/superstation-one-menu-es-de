@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>2015</systemReleaseDateFormated>
         <systemHardwareType>Portable</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>5F459C</systemColor>
         <systemColorPalette1>BA6FDB</systemColorPalette1>
         <systemColorPalette2>8B2DB4</systemColorPalette2>

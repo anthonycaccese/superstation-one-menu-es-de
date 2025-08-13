@@ -10,6 +10,7 @@ Lutris began as a piece of software called Oblivion Launcher, which was created 
         <systemReleaseDateFormated>February 23, 2010</systemReleaseDateFormated>
         <systemHardwareType>Engine</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>AA9D96</systemColor>
         <systemColorPalette1>FF9900</systemColorPalette1>
         <systemColorPalette2>704631</systemColorPalette2>

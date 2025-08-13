@@ -12,6 +12,7 @@ Initially conceived as a solution for industrial and office applications, by 198
         <systemReleaseDateFormated>October 1, 1982</systemReleaseDateFormated>
         <systemHardwareType>Computer</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>5185B2</systemColor>
         <systemColorPalette1>951610</systemColorPalette1>
         <systemColorPalette2>16643C</systemColorPalette2>

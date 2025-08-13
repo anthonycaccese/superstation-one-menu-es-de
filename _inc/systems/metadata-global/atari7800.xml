@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>May 1, 1986</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>2777cc</systemColor>
         <systemColorPalette1>BABBBD</systemColorPalette1>
         <systemColorPalette2>AA2C39</systemColorPalette2>

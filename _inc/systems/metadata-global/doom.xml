@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>December 10, 1993</systemReleaseDateFormated>
         <systemHardwareType>Engine</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>A11321</systemColor>
         <systemColorPalette1>33709F</systemColorPalette1>
         <systemColorPalette2>DFDED1</systemColorPalette2>

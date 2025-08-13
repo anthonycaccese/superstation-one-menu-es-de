@@ -3,95 +3,95 @@
       <aspectRatio name="16:9,19.5:9">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
-               <maxItemCount>3.25</maxItemCount>
-               <itemSize>0.278125 0.37037037</itemSize><!-- 534 400 -->
-               <selectedItemMargins>0.025 0.025</selectedItemMargins>
-               <horizontalOffset>-0.203</horizontalOffset>
+               <maxItemCount>4.2</maxItemCount>
+               <itemSize>0.20833333 0.37037037</itemSize><!-- 400 400 -->
+               <selectedItemMargins>0.02 0.02</selectedItemMargins>
+               <horizontalOffset>-0.245</horizontalOffset>
             </carousel>
             <video name="game-video">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
-               <cropSize>0.33385417 0.44444444</cropSize><!-- 641 480 -->
+               <cropSize>0.25 0.44444444</cropSize><!-- 480 480 -->
             </video>
             <image name="carousel-selector">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
-               <size>0.33385417 0.44444444</size><!-- 641 480 -->
-               <path>./_landscape.svg</path>
+               <size>0.25 0.44444444</size><!-- 480 480 -->
+               <path>./square.svg</path>
             </image>
          </view>
       </aspectRatio>
       <aspectRatio name="3:2,16:10">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
-               <maxItemCount>2.7</maxItemCount>
-               <itemSize>0.32962963 0.37037037</itemSize><!-- 534 400 -->
-               <selectedItemMargins>0.03 0.03</selectedItemMargins>
-               <horizontalOffset>-0.222</horizontalOffset>
+               <maxItemCount>3.6</maxItemCount>
+               <itemSize>0.24691358 0.37037037</itemSize><!-- 400 400 -->
+               <selectedItemMargins>0.028 0.028</selectedItemMargins>
+               <horizontalOffset>-0.272</horizontalOffset>
             </carousel>
             <video name="game-video">
                <pos>0.08024691 0.32222222</pos><!-- - 348 -->
-               <cropSize>0.39567901 0.44444444</cropSize><!-- 641 480 -->
+               <cropSize>0.2962963 0.44444444</cropSize><!-- 480 480 -->
             </video>
             <image name="carousel-selector">
                <pos>0.08024691 0.32222222</pos><!-- - 348 -->
-               <size>0.39567901 0.44444444</size><!-- 641 480 -->
-               <path>./_landscape.svg</path>
+               <size>0.2962963 0.44444444</size><!-- 480 480 -->
+               <path>./square.svg</path>
             </image>
          </view>
       </aspectRatio>
       <aspectRatio name="4:3">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
-               <maxItemCount>2.4</maxItemCount>
-               <itemSize>0.37083333 0.37037037</itemSize><!-- 534 400 -->
+               <maxItemCount>3.25</maxItemCount>
+               <itemSize>0.27777778 0.37037037</itemSize><!-- 400 400 -->
                <selectedItemMargins>0.0275 0.0275</selectedItemMargins>
-               <horizontalOffset>-0.147</horizontalOffset>
+               <horizontalOffset>-0.2025</horizontalOffset>
             </carousel>
             <video name="game-video">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
-               <cropSize>0.44513889 0.44444444</cropSize><!-- 641 480 -->
+               <cropSize>0.33333333 0.44444444</cropSize><!-- 480 480 -->
             </video>
             <image name="carousel-selector">
                <pos>0.13 0.32222222</pos><!-- - 348 -->
-               <size>0.44513889 0.44444444</size><!-- 641 480 -->
-               <path>./_landscape.svg</path>
+               <size>0.33333333 0.44444444</size><!-- 480 480 -->
+               <path>./square.svg</path>
             </image>
          </view>
       </aspectRatio>
       <aspectRatio name="8:7">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
-               <maxItemCount>2.05</maxItemCount>
-               <itemSize>0.43273906 0.37037037</itemSize><!-- 534 400 -->
+               <maxItemCount>2.75</maxItemCount>
+               <itemSize>0.32414911 0.37037037</itemSize><!-- 400 400 -->
                <selectedItemMargins>0.0275 0.0275</selectedItemMargins>
-               <horizontalOffset>-0.1265</horizontalOffset>
+               <horizontalOffset>-0.191</horizontalOffset>
             </carousel>
             <video name="game-video">
                <pos>0.11345219 0.32222222</pos><!-- - 348 -->
-               <cropSize>0.51944895 0.44444444</cropSize><!-- 641 480 -->
+               <cropSize>0.3897893 0.44444444</cropSize><!-- 480 480 -->
             </video>
             <image name="carousel-selector">
                <pos>0.11345219 0.32222222</pos><!-- - 348 -->
-               <size>0.51944895 0.44444444</size><!-- 641 480 -->
-               <path>./_landscape.svg</path>
+               <size>0.3897893 0.44444444</size><!-- 480 480 -->
+               <path>./square.svg</path>
             </image>
          </view>
       </aspectRatio>
       <aspectRatio name="1:1">
          <view name="gamelist">
             <carousel name="gamelist-carousel">
-               <maxItemCount>1.8</maxItemCount>
-               <itemSize>0.49444444 0.37037037</itemSize><!-- 534 400 -->
-               <selectedItemMargins>0.0275 0.0275</selectedItemMargins>
-               <horizontalOffset>-0.129</horizontalOffset>
+               <maxItemCount>2.45</maxItemCount>
+               <itemSize>0.37037037 0.37037037</itemSize><!-- 400 400 -->
+               <selectedItemMargins>0.04 0.04</selectedItemMargins>
+               <horizontalOffset>-0.204</horizontalOffset>
             </carousel>
             <video name="game-video">
                <pos>0.07407407 0.32222222</pos><!-- - 348 -->
-               <cropSize>0.59351852 0.44444444</cropSize><!-- 641 480 -->
+               <cropSize>0.44444444 0.44444444</cropSize><!-- 480 480 -->
             </video>
             <image name="carousel-selector">
                <pos>0.07407407 0.32222222</pos><!-- - 348 -->
-               <size>0.59351852 0.44444444</size><!-- 641 480 -->
-               <path>./_landscape.svg</path>
+               <size>0.44444444 0.44444444</size><!-- 480 480 -->
+               <path>./square.svg</path>
             </image>
          </view>
       </aspectRatio>

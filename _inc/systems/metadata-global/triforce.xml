@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>2002</systemReleaseDateFormated>
         <systemHardwareType>Arcade</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>9c6faa</systemColor>
         <systemColorPalette1>7B79AA</systemColorPalette1>
         <systemColorPalette2>524C82</systemColorPalette2>

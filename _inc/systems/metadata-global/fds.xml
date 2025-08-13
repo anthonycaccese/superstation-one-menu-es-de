@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>February 21, 1986</systemReleaseDateFormated>
         <systemHardwareType>Peripheral</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>c43d41</systemColor>
         <systemColorPalette1>A71636</systemColorPalette1>
         <systemColorPalette2>C7AF89</systemColorPalette2>
@@ -78,7 +79,7 @@
     <language name="sv_SE">
         <variables>
             <systemDescription>Family Computer Disk System, ibland förkortat Famicom Disk System eller bara Disk System, och förkortat FDS eller FCD, är en kringutrustning till Nintendos Family Computer-videospelskonsol som släpptes i Japan den 21 februari 1986. Den använder egenutvecklade disketter som kallas "Disk Cards" för datalagring. Under hela produktionsperioden, 1986-2003, såldes 4,44 miljoner enheter. Enheten ansluts till Famicom genom att en speciell kassett, RAM-adaptern, sätts in i systemets kassettport och kassettens kabel ansluts till diskettenheten. RAM-adaptern innehåller 32 kilobyte (KB) RAM-minne för tillfällig programlagring, 8 KB RAM-minne för lagring av data från tiles och sprites samt en ASIC som kallas 2C33. ASIC:en fungerar som diskettkontroll för diskettenheten och innehåller också extra ljudhårdvara med en encykels wavetable-lookup-synthesizer. Slutligen finns ett 8KB BIOS ROM inbäddat i 2C33. De diskettkort som används är dubbelsidiga och har en total kapacitet på 112 KB per diskett. Många spel använder båda sidorna av en diskett, vilket innebär att användaren måste byta sida någon gång under spelets gång. Några få spel använder två hela diskar, totalt fyra sidor. Disk System kan drivas med sex C-cellsbatterier eller den medföljande nätadaptern. Batterierna håller vanligtvis i fem månader vid dagligt spelande. Batterialternativet beror på att det är troligt att en vanlig uppsättning nätkontakter redan är upptagna av en Famicom och en TV.</systemDescription>
-            <systemHardwareType>Perifer</systemHardwareType>
+            <systemHardwareType>Tillbehör</systemHardwareType>
         </variables>
     </language>
     <language name="ja_JP">

@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>October 18, 1985</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>c43d41</systemColor>
         <systemColorPalette1>CD3332</systemColorPalette1>
         <systemColorPalette2>FFFFFF</systemColorPalette2>

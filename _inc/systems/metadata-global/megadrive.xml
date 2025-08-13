@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>1990</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>243-340</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>0374d1</systemColor>
         <systemCartSize>112-67</systemCartSize>
     </variables>

@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>December 1, 1978</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>fa860a</systemColor>
         <systemColorPalette1>8C1914</systemColorPalette1>
         <systemColorPalette2>89918F</systemColorPalette2>

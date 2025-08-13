@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>February, 6th 2007</systemReleaseDateFormated>
         <systemHardwareType>Emulator</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>ffbd23</systemColor>
         <systemColorPalette1>DEBA27</systemColorPalette1>
         <systemColorPalette2>856125</systemColorPalette2>

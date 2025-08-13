@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>December 8, 1998</systemReleaseDateFormated>
         <systemHardwareType>OS</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>F8981D</systemColor>
         <systemColorPalette1>F58219</systemColorPalette1>
         <systemColorPalette2>4E7896</systemColorPalette2>

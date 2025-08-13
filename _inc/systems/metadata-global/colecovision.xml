@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>August 1, 1982</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>e9663e</systemColor>
         <systemColorPalette1>EF8185</systemColorPalette1>
         <systemColorPalette2>F3994B</systemColorPalette2>

@@ -10,6 +10,7 @@ In contrast to the expensive hardware of the unsuccessful Sega Saturn, the Dream
         <systemReleaseDateFormated>November 27, 1998</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>497ed9</systemColor>
         <systemColorPalette1>C1C3C2</systemColorPalette1>
         <systemColorPalette2>3E649F</systemColorPalette2>

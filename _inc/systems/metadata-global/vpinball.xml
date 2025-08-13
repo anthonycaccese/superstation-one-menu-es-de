@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>December 19, 2000</systemReleaseDateFormated>
         <systemHardwareType>Engine</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>7dc7ea</systemColor>
         <systemColorPalette1>F6DD08</systemColorPalette1>
         <systemColorPalette2>800000</systemColorPalette2>

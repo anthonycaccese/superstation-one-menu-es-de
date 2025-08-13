@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>October 1983</systemReleaseDateFormated>
         <systemHardwareType>Computer</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>5A93AF</systemColor>
         <systemColorPalette1>999999</systemColorPalette1>
         <systemColorPalette2>777777</systemColorPalette2>

@@ -12,6 +12,7 @@ It is also possible for Super Game Boy games to make use of the Super NES hardwa
         <systemReleaseDateFormated>June 28, 1994</systemReleaseDateFormated>
         <systemHardwareType>Peripheral</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>3c528d</systemColor>
         <systemColorPalette1>30308F</systemColorPalette1>
         <systemColorPalette2>D9D9D9</systemColorPalette2>
@@ -126,7 +127,7 @@ De asemenea, este posibil ca jocurile Super Game Boy să utilizeze hardware-ul S
 Enheten kunde mappa de fyra gröna nyanserna till olika färger på skärmen. Senare Game Boy-spel som var optimerade för att använda Super Game Boy hade ytterligare färginformation och kunde åsidosätta färgerna på skärmen, visa en grafisk kant runt skärmen och visa speciella bakgrundssprites. Dessa spel skulle ha tryckt en liten "Super Game Boy Game Pak"-logotyp på lådan och kassetten. Adaptern kunde stödja upp till 64 färger för kanten och 12 färger för skärmen. Statiska skärmar kunde visa alla 10 färgerna. Vissa spel kan ladda in flera gränser beroende på var spelaren befinner sig i spelet.
 
 Det är också möjligt för Super Game Boy-spel att använda Super NES-hårdvaran för extra effekter: dessa spel hade utökat ljud när de användes med Super Game Boy. Vissa titlar tillät även att den andra Super NES-kontrollen användes för två spelare; med Super Multitap kunde vissa spel till och med stödja fyra spelare.</systemDescription>
-            <systemHardwareType>Perifer</systemHardwareType>
+            <systemHardwareType>Tillbehör</systemHardwareType>
         </variables>
     </language>
     <language name="ja_JP">

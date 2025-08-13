@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>May 1982</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>D59234</systemColor>
         <systemColorPalette1>1E35A0</systemColorPalette1>
         <systemColorPalette2>2FBB37</systemColorPalette2>

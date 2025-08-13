@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>August 1, 1981</systemReleaseDateFormated>
         <systemHardwareType>OS</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>2d61c1</systemColor>
         <systemColorPalette1>FDC20F</systemColorPalette1>
         <systemColorPalette2>8461A9</systemColorPalette2>

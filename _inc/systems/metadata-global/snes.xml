@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>April 11, 1992</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>4-3</systemCoverSize>
+        <systemCoverSizeType>landscape</systemCoverSizeType>
         <systemColor>df5142</systemColor>
         <systemColorPalette1>FED01B</systemColorPalette1>
         <systemColorPalette2>BA2318</systemColorPalette2>

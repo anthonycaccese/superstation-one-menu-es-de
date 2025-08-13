@@ -12,6 +12,7 @@ The two cartridge slots are designed to share data between the games. The cartri
         <systemReleaseDateFormated>June 28, 1996</systemReleaseDateFormated>
         <systemHardwareType>Peripheral</systemHardwareType>
         <systemCoverSize>3-5</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>3f55a0</systemColor>
         <systemColorPalette1>FF0000</systemColorPalette1>
         <systemColorPalette2>EDDFDE</systemColorPalette2>
@@ -126,7 +127,7 @@ Cele două sloturi pentru cartușe sunt concepute pentru a partaja date între j
 Den här enheten är utformad för att sitta ovanpå Super Famicom och har två kassettplatser. Utgångspunkten var att spel skulle kunna produceras till en mycket lägre kostnad och utvecklingstid, eftersom man inte behövde förlita sig på Nintendo för produktion av kassetter. Till skillnad från Aladdin Deck Enhancer godkändes denna enhet officiellt av Nintendo under förutsättning att Bandai själva skötte all tillverkning av hårdvaran.
 
 De två kortplatserna är utformade för att dela data mellan spelen. Kassetten som placeras i fack 1 är det spel som ska spelas, medan kassetten i fack 2 levererar ytterligare data som ska användas i huvudspelet. Av de tretton spel som släppts kan nio av dem länkas samman inom varje spelserie.</systemDescription>
-            <systemHardwareType>Perifer</systemHardwareType>
+            <systemHardwareType>Tillbehör</systemHardwareType>
         </variables>
     </language>
     <language name="ja_JP">

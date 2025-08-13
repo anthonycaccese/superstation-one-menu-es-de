@@ -12,6 +12,7 @@ Some key differentiators between systems and the ability to fully utilize all ga
         <systemReleaseDateFormated>August 4, 2004</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>544D77</systemColor>
         <systemColorPalette1>007CB3</systemColorPalette1>
         <systemColorPalette2>8A6AA2</systemColorPalette2>

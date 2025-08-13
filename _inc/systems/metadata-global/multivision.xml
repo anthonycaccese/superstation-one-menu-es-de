@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>1983</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>4959A0</systemColor>
         <systemColorPalette1>EFEBE1</systemColorPalette1>
         <systemColorPalette2>571229</systemColorPalette2>

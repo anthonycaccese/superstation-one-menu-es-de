@@ -16,6 +16,7 @@ Both parts (the C++ engine and the Lua scripts of your quest) communicate throug
         <systemReleaseDateFormated>April 6, 2021</systemReleaseDateFormated>
         <systemHardwareType>Engine</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>271658</systemColor>
         <systemColorPalette1>37336C</systemColorPalette1>
         <systemColorPalette2>CD2943</systemColorPalette2>

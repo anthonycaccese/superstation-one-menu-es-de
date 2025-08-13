@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>November 11, 1996</systemReleaseDateFormated>
         <systemHardwareType>Arcade</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>efcb47</systemColor>
         <systemColorPalette1>FAFAFA</systemColorPalette1>
         <systemColorPalette2>034EA2</systemColorPalette2>

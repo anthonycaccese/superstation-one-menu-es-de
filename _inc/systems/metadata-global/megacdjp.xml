@@ -10,6 +10,7 @@ The main benefit of CD technology was greater storage, which allowed for games t
         <systemReleaseDateFormated>December 12, 1991</systemReleaseDateFormated>
         <systemHardwareType>Peripheral</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>0374d1</systemColor>
         <systemColorPalette1>5A97D0</systemColorPalette1>
         <systemColorPalette2>1D46A5</systemColorPalette2>
@@ -102,7 +103,7 @@ Principalul beneficiu al tehnologiei CD a fost creșterea capacității de stoca
             <systemDescription>Sega CD, som släpptes som Mega-CD i de flesta regioner utanför Nordamerika och Brasilien, är ett CD-ROM-tillbehör för Mega Drive/Genesis som designats och producerats av Sega som en del av den fjärde generationens videospelskonsoler. Den släpptes den 12 december 1991 i Japan, den 15 oktober 1992 i Nordamerika och den 2 april 1993 i Europa. Sega CD spelar CD-baserade spel och lägger till hårdvarufunktioner som en snabbare centralprocessor och grafiska förbättringar som skalning och rotation av sprite. Den kan också spela ljud-CD-skivor och CD+G-skivor.
 
 Den största fördelen med CD-tekniken var den större lagringsmöjligheten, som gjorde att spelen kunde vara nästan 320 gånger större än Genesis-kassetterna. Denna fördel manifesterades i full motion video (FMV)-spel som det kontroversiella Night Trap, som blev ett fokus för 1993 års kongressutfrågningar om frågor som rörde våld och klassificering av videospel. Sega of Japan samarbetade med JVC för att utforma Sega CD och vägrade att rådgöra med Sega of America förrän projektet var slutfört. Sega of America monterade delar från olika "dummy"-enheter för att få fram en fungerande prototyp. Den omdesignades flera gånger av Sega och licensierade tredjepartsutvecklare.</systemDescription>
-            <systemHardwareType>Perifer</systemHardwareType>
+            <systemHardwareType>Tillbehör</systemHardwareType>
         </variables>
     </language>
     <language name="ja_JP">

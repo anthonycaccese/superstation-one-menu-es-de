@@ -10,6 +10,7 @@ Internally, the Plus/4 shared the same basic architecture as the lower-end Commo
         <systemReleaseDateFormated>1984</systemReleaseDateFormated>
         <systemHardwareType>Computer</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>538db0</systemColor>
         <systemCartSize>1-1</systemCartSize>
         <systemColorPalette1>BBAD93</systemColorPalette1>

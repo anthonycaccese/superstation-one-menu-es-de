@@ -322,7 +322,7 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
    ///
    -->
    <variant name="gamelist-carousel-cover">
-      <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
+      <include>./_inc/systems/coversize/${systemCoverSizeType}.xml</include>
       <view name="gamelist">
          <text name="game-name">
             <origin>0 1</origin>

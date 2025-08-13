@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>April 21, 1989</systemReleaseDateFormated>
         <systemHardwareType>Portable</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>3c528d</systemColor>
         <systemColorPalette1>9B2063</systemColorPalette1>
         <systemColorPalette2>2D308E</systemColorPalette2>

@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>January 1, 1984</systemReleaseDateFormated>
         <systemHardwareType>Computer</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>517d9f</systemColor>
         <systemColorPalette1>E91C23</systemColorPalette1>
         <systemColorPalette2>00A651</systemColorPalette2>

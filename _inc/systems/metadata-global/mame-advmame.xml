@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>May 1998</systemReleaseDateFormated>
         <systemHardwareType>Emulator</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>5a64bb</systemColor>
         <systemColorPalette1>00ADEF</systemColorPalette1>
         <systemColorPalette2>84849C</systemColorPalette2>

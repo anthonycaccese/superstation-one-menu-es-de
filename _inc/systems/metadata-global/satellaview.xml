@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>April 23, 1995</systemReleaseDateFormated>
         <systemHardwareType>Peripheral</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>d9ac3b</systemColor>
         <systemColorPalette1>37336C</systemColorPalette1>
         <systemColorPalette2>CD2943</systemColorPalette2>
@@ -78,7 +79,7 @@
     <language name="sv_SE">
         <variables>
             <systemDescription>Satellaview är en satellitmodemutrustning för Nintendos Super Famicom-system som släpptes i Japan 1995. Satellaview kunde förbeställas från och med den 13 februari 1995 och såldes för mellan 14 000 och 18 000 yen (vid den tiden mellan 141 och 182 USD) och levererades tillsammans med BS-X Game Pak och ett 8M Memory Pak. Satellaview-systemet utvecklades och släpptes av Nintendo för att ta emot signaler som sändes från satellit-TV-stationen WOWOW:s satellitradiodotterbolag St.GIGA. St.GIGA ansvarade för hantering av filservern, underhåll och sång för "SoundLink"-spelen. Nintendos datasändningar gavs en fast tidslucka som kallades Super Famicom Hour under vilken krypterad Satellaview-relaterad data strömmade via radiovågor för att avkrypteras av St.GIGAs "BS digital hi-vision TV". Som en abonnemangsbaserad station för ambient och New Age-musik var St.GIGAs lyssnare redan utrustade med "BS-tuners" före St.GIGAs kontrakt med Nintendo. Satellaview-ägare som saknade en "BS-tuner" var tvungna att köpa en separat från St.GIGA till ett pris av 33.000 yen, samt anmäla sig till Nintendos och St.GIGAs gemensamma månatliga medlemsavgifter. Alternativt kunde användare hyra "BS-tuners" från St.GIGA under en 6-månadersperiod till ett pris av 5 400 yen. Även till detta premiumpris rapporterade St.GIGA att abonnemangen nådde en topp på 116.378 hushåll i mars 1997 och sjönk till cirka 46.000 i juni 2001.</systemDescription>
-            <systemHardwareType>Perifer</systemHardwareType>
+            <systemHardwareType>Tillbehör</systemHardwareType>
         </variables>
     </language>
     <language name="ja_JP">

@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>December 3, 1991</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>c47ca6</systemColor>
         <systemColorPalette1>000000</systemColorPalette1>
         <systemColorPalette2>E70000</systemColorPalette2>

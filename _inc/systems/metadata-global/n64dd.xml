@@ -8,6 +8,7 @@
         <systemReleaseDateFormated>December 1, 1999</systemReleaseDateFormated>
         <systemHardwareType>Peripheral</systemHardwareType>
         <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
         <systemColor>0da25e</systemColor>
         <systemColorPalette1>DCAF36</systemColorPalette1>
         <systemColorPalette2>268340</systemColorPalette2>
@@ -78,7 +79,7 @@
     <language name="sv_SE">
         <variables>
             <systemDescription>64DD, i dagligt tal kallad Nintendo 64DD, är en magnetisk hårddisk för spelkonsolen Nintendo 64 som utvecklats av Nintendo. Den presenterades ursprungligen 1995, före Nintendo 64:s lansering 1996, och efter många förseningar släpptes den slutligen endast i Japan den 1 december 1999. Endast tio mjukvarutitlar släpptes fram till dess att enheten avvecklades i februari 2001. Den var ett kommersiellt misslyckande, med minst 15.000 sålda enheter och ytterligare 85.000 osålda enheter.</systemDescription>
-            <systemHardwareType>Perifer</systemHardwareType>
+            <systemHardwareType>Tillbehör</systemHardwareType>
         </variables>
     </language>
     <language name="ja_JP">

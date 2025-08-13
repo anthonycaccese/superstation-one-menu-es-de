@@ -10,6 +10,7 @@ The Vectrex, in contrast to other video-game systems available at the time, feat
         <systemReleaseDateFormated>November 1982</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
         <systemColor>4794dc</systemColor>
         <systemColorPalette1>EEF020</systemColorPalette1>
         <systemColorPalette2>EC1D25</systemColorPalette2>
