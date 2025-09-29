@@ -27,9 +27,12 @@ https://github.com/anthonycaccese/superstation-one-menu-es-de
    </variables>
    <colorScheme name="
       black,
+      gray,
       green,
       blue,
-      red
+      red,
+      tourquoise,
+      gold
       ">
       <variables>
          <colorSchemePath>./colors.xml</colorSchemePath>

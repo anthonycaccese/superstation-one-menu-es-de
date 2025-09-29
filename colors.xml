@@ -18,6 +18,25 @@
          <userName>${defaultUserName}</userName>
       </variables>
    </colorScheme>
+   <colorScheme name="gray">
+      <variables>
+         <!-- Background -->
+         <backgroundPath>${defaultBackground}</backgroundPath>
+         <backgroundTile>true</backgroundTile>
+         <backgroundColor>444444</backgroundColor>
+         <!-- Fonts -->
+         <fontPath>${defaultFont}</fontPath>
+         <fontColorBase>ffffff</fontColorBase>
+         <fontColorSelected>000000</fontColorSelected>
+         <!-- Icons -->
+         <iconColorBase>ffffff</iconColorBase>
+         <!-- Accents -->
+         <selectorColor>ffffff</selectorColor>
+         <indicators>ascii</indicators>
+         <!-- User -->
+         <userName>${defaultUserName}</userName>
+      </variables>
+   </colorScheme>
    <colorScheme name="green">
       <variables>
          <!-- Background -->
@@ -62,6 +81,44 @@
          <backgroundPath>${defaultBackground}</backgroundPath>
          <backgroundTile>true</backgroundTile>
          <backgroundColor>B00D0E</backgroundColor>
+         <!-- Fonts -->
+         <fontPath>${defaultFont}</fontPath>
+         <fontColorBase>ffffff</fontColorBase>
+         <fontColorSelected>000000</fontColorSelected>
+         <!-- Icons -->
+         <iconColorBase>ffffff</iconColorBase>
+         <!-- Accents -->
+         <selectorColor>ffffff</selectorColor>
+         <indicators>ascii</indicators>
+         <!-- User -->
+         <userName>${defaultUserName}</userName>
+      </variables>
+   </colorScheme>
+   <colorScheme name="tourquoise">
+      <variables>
+         <!-- Background -->
+         <backgroundPath>${defaultBackground}</backgroundPath>
+         <backgroundTile>true</backgroundTile>
+         <backgroundColor>64C7D0</backgroundColor>
+         <!-- Fonts -->
+         <fontPath>${defaultFont}</fontPath>
+         <fontColorBase>ffffff</fontColorBase>
+         <fontColorSelected>000000</fontColorSelected>
+         <!-- Icons -->
+         <iconColorBase>ffffff</iconColorBase>
+         <!-- Accents -->
+         <selectorColor>ffffff</selectorColor>
+         <indicators>ascii</indicators>
+         <!-- User -->
+         <userName>${defaultUserName}</userName>
+      </variables>
+   </colorScheme>
+   <colorScheme name="gold">
+      <variables>
+         <!-- Background -->
+         <backgroundPath>${defaultBackground}</backgroundPath>
+         <backgroundTile>true</backgroundTile>
+         <backgroundColor>E5C353</backgroundColor>
          <!-- Fonts -->
          <fontPath>${defaultFont}</fontPath>
          <fontColorBase>ffffff</fontColorBase>

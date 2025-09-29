@@ -23,6 +23,9 @@
    <colorScheme name="black">
       <label>Black</label>
    </colorScheme>
+   <colorScheme name="gray">
+      <label>Gray</label>
+   </colorScheme>
    <colorScheme name="green">
       <label>Green</label>
    </colorScheme>
@@ -31,6 +34,12 @@
    </colorScheme>
    <colorScheme name="red">
       <label>Red</label>
+   </colorScheme>
+   <colorScheme name="tourquoise">
+      <label>Tourquoise</label>
+   </colorScheme>
+   <colorScheme name="gold">
+      <label>Gold</label>
    </colorScheme>
    <colorScheme name="custom">
       <label>Custom</label>
